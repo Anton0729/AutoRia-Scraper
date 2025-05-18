@@ -82,7 +82,7 @@ Table: `cars`
 | images_count   | INTEGER   | Number of images in listing      |
 | car_number     | TEXT      | License plate number             |
 | car_vin        | TEXT      | VIN number                       |
-| datetime_found | TIMESTAMP | Time when entry was scraped      |
+| datetime_found | TIMESTAMP | Time when entry was saved to DB  |
 
 ---
 
