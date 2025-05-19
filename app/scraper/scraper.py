@@ -190,7 +190,7 @@ async def parse_car_page():
     async with aiohttp.ClientSession() as session:
         start_url = ("https://auto.ria.com/uk/search/?indexName=auto,order_auto,newauto_search"
                      "&categories.main.id=1&country.import.usa.not=-1&price.currency=1"
-                     "&abroad.not=0&custom.not=1&page=1&size=10")
+                     "&abroad.not=0&custom.not=1&page=1&size=100")
 
         total_pages = await count_page_offers(session, start_url)
         if not total_pages:
